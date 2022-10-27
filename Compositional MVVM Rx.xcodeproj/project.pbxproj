@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F631EFDF28FF900400709560 /* DiffableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631EFDE28FF900400709560 /* DiffableViewController.swift */; };
+		F631F0272900CF7F00709560 /* CObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0262900CF7F00709560 /* CObservable.swift */; };
+		F631F0292900D13B00709560 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0282900D13B00709560 /* NewsViewController.swift */; };
+		F631F02B2900D24300709560 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F02A2900D24300709560 /* NewsViewModel.swift */; };
+		F631F02D2900D77A00709560 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F02C2900D77A00709560 /* News.swift */; };
+		F631F0302900ED7B00709560 /* DiffableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F02F2900ED7B00709560 /* DiffableViewModel.swift */; };
+		F631F0322900EDEE00709560 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0312900EDEE00709560 /* APIService.swift */; };
+		F631F0342900EE3800709560 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0332900EE3800709560 /* APIKey.swift */; };
+		F631F0362900EF8E00709560 /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0352900EF8E00709560 /* UnsplashModel.swift */; };
+		F631F0392900F11700709560 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F631F0382900F11700709560 /* Alamofire */; };
+		F631F03C2900F12200709560 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F631F03B2900F12200709560 /* Kingfisher */; };
+		F631F0ED290622D000709560 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F631F0EC290622D000709560 /* RxCocoa */; };
+		F631F0EF290622D000709560 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F631F0EE290622D000709560 /* RxSwift */; };
+		F631F0F2290625BC00709560 /* RxCocoaExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0F1290625BC00709560 /* RxCocoaExampleViewController.swift */; };
+		F631F0F929077A5400709560 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0F829077A5400709560 /* SubjectViewController.swift */; };
+		F631F0FB290788AF00709560 /* SubjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0FA290788AF00709560 /* SubjectViewModel.swift */; };
+		F631F0FF2908CBCB00709560 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F0FE2908CBCB00709560 /* SubscribeViewController.swift */; };
+		F631F122290A07BC00709560 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F121290A07BC00709560 /* ValidationViewController.swift */; };
+		F631F124290A090800709560 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631F123290A090800709560 /* ValidationViewModel.swift */; };
 		F683645A28FE38F7007F133E /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F683645928FE38F7007F133E /* SimpleCollectionViewController.swift */; };
 		F68D143F28FE2DF30062F505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68D143E28FE2DF30062F505 /* AppDelegate.swift */; };
 		F68D144128FE2DF30062F505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68D144028FE2DF30062F505 /* SceneDelegate.swift */; };
@@ -19,6 +37,20 @@
 
 /* Begin PBXFileReference section */
 		F631EFDE28FF900400709560 /* DiffableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewController.swift; sourceTree = "<group>"; };
+		F631F0262900CF7F00709560 /* CObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CObservable.swift; sourceTree = "<group>"; };
+		F631F0282900D13B00709560 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		F631F02A2900D24300709560 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		F631F02C2900D77A00709560 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F631F02F2900ED7B00709560 /* DiffableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewModel.swift; sourceTree = "<group>"; };
+		F631F0312900EDEE00709560 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F631F0332900EE3800709560 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		F631F0352900EF8E00709560 /* UnsplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
+		F631F0F1290625BC00709560 /* RxCocoaExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaExampleViewController.swift; sourceTree = "<group>"; };
+		F631F0F829077A5400709560 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		F631F0FA290788AF00709560 /* SubjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewModel.swift; sourceTree = "<group>"; };
+		F631F0FE2908CBCB00709560 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		F631F121290A07BC00709560 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		F631F123290A090800709560 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
 		F683645928FE38F7007F133E /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
 		F68D143B28FE2DF30062F505 /* Compositional MVVM Rx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional MVVM Rx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68D143E28FE2DF30062F505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,12 +67,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F631F0ED290622D000709560 /* RxCocoa in Frameworks */,
+				F631F03C2900F12200709560 /* Kingfisher in Frameworks */,
+				F631F0EF290622D000709560 /* RxSwift in Frameworks */,
+				F631F0392900F11700709560 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F631F0252900CD9200709560 /* MVVMSample */ = {
+			isa = PBXGroup;
+			children = (
+				F631F0262900CF7F00709560 /* CObservable.swift */,
+				F631F0282900D13B00709560 /* NewsViewController.swift */,
+				F631F02A2900D24300709560 /* NewsViewModel.swift */,
+				F631F02C2900D77A00709560 /* News.swift */,
+			);
+			path = MVVMSample;
+			sourceTree = "<group>";
+		};
+		F631F03D2900F61300709560 /* MVVM+API+Compositional */ = {
+			isa = PBXGroup;
+			children = (
+				F631EFDE28FF900400709560 /* DiffableViewController.swift */,
+				F631F02F2900ED7B00709560 /* DiffableViewModel.swift */,
+				F631F0312900EDEE00709560 /* APIService.swift */,
+				F631F0332900EE3800709560 /* APIKey.swift */,
+				F631F0352900EF8E00709560 /* UnsplashModel.swift */,
+			);
+			path = "MVVM+API+Compositional";
+			sourceTree = "<group>";
+		};
+		F631F0F0290625A000709560 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				F631F0F1290625BC00709560 /* RxCocoaExampleViewController.swift */,
+				F631F0F829077A5400709560 /* SubjectViewController.swift */,
+				F631F0FA290788AF00709560 /* SubjectViewModel.swift */,
+				F631F0FE2908CBCB00709560 /* SubscribeViewController.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		F631F120290A07A900709560 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				F631F121290A07BC00709560 /* ValidationViewController.swift */,
+				F631F123290A090800709560 /* ValidationViewModel.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 		F68D143228FE2DF30062F505 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +139,14 @@
 		F68D143D28FE2DF30062F505 /* Compositional MVVM Rx */ = {
 			isa = PBXGroup;
 			children = (
+				F631F120290A07A900709560 /* Validation */,
+				F631F0F0290625A000709560 /* Rx */,
+				F631F03D2900F61300709560 /* MVVM+API+Compositional */,
+				F631F0252900CD9200709560 /* MVVMSample */,
 				F68D143E28FE2DF30062F505 /* AppDelegate.swift */,
 				F68D144028FE2DF30062F505 /* SceneDelegate.swift */,
 				F68D144228FE2DF30062F505 /* SimpleTableViewController.swift */,
 				F683645928FE38F7007F133E /* SimpleCollectionViewController.swift */,
-				F631EFDE28FF900400709560 /* DiffableViewController.swift */,
 				F68D144428FE2DF30062F505 /* Main.storyboard */,
 				F68D144728FE2DF60062F505 /* Assets.xcassets */,
 				F68D144928FE2DF60062F505 /* LaunchScreen.storyboard */,
@@ -89,6 +171,12 @@
 			dependencies = (
 			);
 			name = "Compositional MVVM Rx";
+			packageProductDependencies = (
+				F631F0382900F11700709560 /* Alamofire */,
+				F631F03B2900F12200709560 /* Kingfisher */,
+				F631F0EC290622D000709560 /* RxCocoa */,
+				F631F0EE290622D000709560 /* RxSwift */,
+			);
 			productName = "Compositional MVVM Rx";
 			productReference = F68D143B28FE2DF30062F505 /* Compositional MVVM Rx.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +205,11 @@
 				Base,
 			);
 			mainGroup = F68D143228FE2DF30062F505;
+			packageReferences = (
+				F631F0372900F11700709560 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F631F03A2900F12200709560 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F631F0EB290622D000709560 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F68D143C28FE2DF30062F505 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,11 +237,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F631F0FF2908CBCB00709560 /* SubscribeViewController.swift in Sources */,
+				F631F122290A07BC00709560 /* ValidationViewController.swift in Sources */,
+				F631F0272900CF7F00709560 /* CObservable.swift in Sources */,
+				F631F124290A090800709560 /* ValidationViewModel.swift in Sources */,
 				F683645A28FE38F7007F133E /* SimpleCollectionViewController.swift in Sources */,
 				F68D144328FE2DF30062F505 /* SimpleTableViewController.swift in Sources */,
+				F631F02D2900D77A00709560 /* News.swift in Sources */,
+				F631F0322900EDEE00709560 /* APIService.swift in Sources */,
+				F631F0362900EF8E00709560 /* UnsplashModel.swift in Sources */,
 				F68D143F28FE2DF30062F505 /* AppDelegate.swift in Sources */,
+				F631F0F929077A5400709560 /* SubjectViewController.swift in Sources */,
+				F631F0292900D13B00709560 /* NewsViewController.swift in Sources */,
 				F631EFDF28FF900400709560 /* DiffableViewController.swift in Sources */,
 				F68D144128FE2DF30062F505 /* SceneDelegate.swift in Sources */,
+				F631F02B2900D24300709560 /* NewsViewModel.swift in Sources */,
+				F631F0342900EE3800709560 /* APIKey.swift in Sources */,
+				F631F0FB290788AF00709560 /* SubjectViewModel.swift in Sources */,
+				F631F0302900ED7B00709560 /* DiffableViewModel.swift in Sources */,
+				F631F0F2290625BC00709560 /* RxCocoaExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +473,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F631F0372900F11700709560 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F631F03A2900F12200709560 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		F631F0EB290622D000709560 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F631F0382900F11700709560 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F631F0372900F11700709560 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F631F03B2900F12200709560 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F631F03A2900F12200709560 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F631F0EC290622D000709560 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F631F0EB290622D000709560 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F631F0EE290622D000709560 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F631F0EB290622D000709560 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F68D143328FE2DF30062F505 /* Project object */;
 }
