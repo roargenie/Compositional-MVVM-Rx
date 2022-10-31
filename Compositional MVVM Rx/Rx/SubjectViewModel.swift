@@ -18,7 +18,7 @@ struct Contact {
 
 class SubjectViewModel {
     
-    var contactData = [
+    var contactData: [Contact] = [
         Contact(name: "Metaverse Jack", age: 23, number: "01012341234"),
         Contact(name: "Hue", age: 21, number: "01012342345"),
         Contact(name: "Real Jack", age: 19, number: "01012342346"),
